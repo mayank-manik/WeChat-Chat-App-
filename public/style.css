@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  background-image: linear-gradient( 135deg, #EE9AE5 10%, #5961F9 100%);
+}
+
+.chat_section {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 15px 15px 15px;
+  width: 60rem;
+  max-width: 90%;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  padding: 1rem;
+}
+
+.brand img {
+  width: 4rem;
+}
+
+.brand h1 {
+  margin-left: 2rem;
+  font-size: 2rem;
+  color: #444;
+}
+
+.message_area {
+  height: 50rem;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-top: 4rem;
+}
+.message {
+  padding: 1.3rem;
+  border-radius: 4px;
+  margin-bottom: 4rem;
+  position: relative;
+  max-width: 24rem;
+}
+
+.message h4 {
+  position: absolute;
+  top: -2rem;
+  left: 0;
+  color: #333;
+  font-size: 1.4rem;
+}
+
+.message p {
+  font-size: 1.35rem;
+}
+
+.incoming {
+  background: #318ce7;
+  color: #fff;
+}
+
+.outgoing {
+  background: #92DFF3;
+  color: #1b1b1b;
+  margin-left: auto;
+}
+
+.text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#textarea {
+  background: #f1f1f1;
+  max-width: 90%;
+  min-width: 90%;
+  min-height: 3.84rem;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  font-weight: 100;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.btn {
+  display: flex;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  width: 8%;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.fa-paper-plane {
+  font-size: 2.5rem;
+  color: #2c6bed;
+}
+
+
+
